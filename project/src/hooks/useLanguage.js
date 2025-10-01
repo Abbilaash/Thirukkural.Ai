@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react';
 
-export type Language = 'tamil' | 'english';
-
 export const useLanguage = () => {
-  const [language, setLanguage] = useState<Language>(() => {
+  const [language, setLanguage] = useState(() => {
     const saved = localStorage.getItem('language');
-    return (saved as Language) || 'english';
+    return saved || 'english';
   });
 
   useEffect(() => {
@@ -13,8 +11,10 @@ export const useLanguage = () => {
   }, [language]);
 
   const toggleLanguage = () => {
-    setLanguage(prev => prev === 'tamil' ? 'english' : 'tamil');
+    setLanguage(prev => (prev === 'tamil' ? 'english' : 'tamil'));
   };
 
   return { language, toggleLanguage };
 };
+
+

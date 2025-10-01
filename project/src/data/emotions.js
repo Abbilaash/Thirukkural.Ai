@@ -28,3 +28,5 @@ export const layers = [
   { name: "Justice", icon: "Scale", description: "Fairness and moral righteousness" },
   { name: "Patience", icon: "Clock", description: "Endurance and calm perseverance" },
 ];
+
+

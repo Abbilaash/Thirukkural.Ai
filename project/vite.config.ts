@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Keeping TS config temporarily; a JS version will be added for pure React usage
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {

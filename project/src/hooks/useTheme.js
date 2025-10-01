@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react';
 
-export type Theme = 'light' | 'dark';
-
 export const useTheme = () => {
-  const [theme, setTheme] = useState<Theme>(() => {
+  const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('theme');
-    return (saved as Theme) || 'light';
+    return saved || 'light';
   });
 
   useEffect(() => {
@@ -18,8 +16,10 @@ export const useTheme = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
   };
 
   return { theme, toggleTheme };
 };
+
+

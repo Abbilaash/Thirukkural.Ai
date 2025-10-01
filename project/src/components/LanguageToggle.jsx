@@ -1,12 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useLanguage } from '../hooks/useLanguage';
+import { useLanguage } from '../hooks/useLanguage.js';
 
-interface LanguageToggleProps {
-  variant?: 'header' | 'footer';
-}
-
-const LanguageToggle: React.FC<LanguageToggleProps> = ({ variant = 'header' }) => {
+const LanguageToggle = ({ variant = 'header' }) => {
   const { language, toggleLanguage } = useLanguage();
 
   const baseClasses = variant === 'header' 
@@ -26,3 +22,5 @@ const LanguageToggle: React.FC<LanguageToggleProps> = ({ variant = 'header' }) =
 };
 
 export default LanguageToggle;
+
+

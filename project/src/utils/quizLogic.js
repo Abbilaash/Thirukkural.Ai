@@ -1,46 +1,34 @@
-import { QuizAnswers } from '../App';
-
-export interface PersonalityResult {
-  type: string;
-  description: string;
-  traits: string[];
-}
-
-export const analyzePersonality = (answers: QuizAnswers): PersonalityResult => {
-  // Simple scoring system based on answer patterns
+export const analyzePersonality = (answers) => {
   let wisdom = 0;
   let compassion = 0;
   let strength = 0;
   let harmony = 0;
 
   Object.entries(answers).forEach(([questionId, answer]) => {
-    const qId = parseInt(questionId);
-    
+    const qId = parseInt(questionId, 10);
     switch (qId) {
-      case 1: // Decision making
+      case 1:
         if (answer === 'A') wisdom += 2;
         if (answer === 'B') compassion += 2;
         if (answer === 'D') harmony += 1;
         break;
-      case 2: // Handle criticism
+      case 2:
         if (answer === 'A') wisdom += 2;
         if (answer === 'B') compassion += 1;
         break;
-      case 3: // Value in people
+      case 3:
         if (answer === 'A') wisdom += 2;
         if (answer === 'D') compassion += 2;
         break;
-      case 4: // When wronged
+      case 4:
         if (answer === 'A') compassion += 2;
         if (answer === 'B') wisdom += 1;
         break;
-      case 5: // Quality
+      case 5:
         if (answer === 'A') strength += 2;
         if (answer === 'B') harmony += 2;
         break;
-      // Add more scoring logic for other questions
       default:
-        // Default scoring
         if (answer === 'A') wisdom += 1;
         if (answer === 'B') compassion += 1;
         if (answer === 'C') strength += 1;
@@ -48,10 +36,9 @@ export const analyzePersonality = (answers: QuizAnswers): PersonalityResult => {
     }
   });
 
-  // Determine dominant personality type
   const scores = { wisdom, compassion, strength, harmony };
   const maxScore = Math.max(...Object.values(scores));
-  
+
   if (wisdom === maxScore) {
     return {
       type: 'The Wise Seeker',
@@ -79,7 +66,7 @@ export const analyzePersonality = (answers: QuizAnswers): PersonalityResult => {
   }
 };
 
-export const getRandomKuralByPersonality = (personalityType: string) => {
+export const getRandomKuralByPersonality = (personalityType) => {
   const kuralsByType = {
     'The Wise Seeker': [
       {
@@ -115,6 +102,8 @@ export const getRandomKuralByPersonality = (personalityType: string) => {
     ]
   };
 
-  const kurals = kuralsByType[personalityType as keyof typeof kuralsByType] || kuralsByType['The Wise Seeker'];
+  const kurals = kuralsByType[personalityType] || kuralsByType['The Wise Seeker'];
   return kurals[Math.floor(Math.random() * kurals.length)];
 };
+
+

@@ -1,182 +1,31 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, BookOpen } from 'lucide-react';
-import { QuizAnswers } from '../App';
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from './ThemeToggle.jsx';
 
-interface Question {
-  id: number;
-  question: string;
-  options: {
-    A: string;
-    B: string;
-    C: string;
-    D: string;
-  };
-}
-
-const questions: Question[] = [
-  {
-    id: 1,
-    question: "How do you usually make decisions?",
-    options: {
-      A: "Based on logic and facts",
-      B: "Based on emotions and relationships",
-      C: "I ask others for advice",
-      D: "I trust my intuition"
-    }
-  },
-  {
-    id: 2,
-    question: "How do you handle criticism?",
-    options: {
-      A: "I reflect and try to improve",
-      B: "I take it personally",
-      C: "I ignore it",
-      D: "I defend myself strongly"
-    }
-  },
-  {
-    id: 3,
-    question: "What do you value most in people?",
-    options: {
-      A: "Honesty",
-      B: "Loyalty",
-      C: "Intelligence",
-      D: "Kindness"
-    }
-  },
-  {
-    id: 4,
-    question: "When someone wrongs you, what do you do?",
-    options: {
-      A: "Forgive and move on",
-      B: "Try to understand their side",
-      C: "Avoid them",
-      D: "Seek revenge"
-    }
-  },
-  {
-    id: 5,
-    question: "Which quality best describes you?",
-    options: {
-      A: "Ambitious",
-      B: "Peaceful",
-      C: "Curious",
-      D: "Loyal"
-    }
-  },
-  {
-    id: 6,
-    question: "How do you usually react in conflicts?",
-    options: {
-      A: "I try to calm things down",
-      B: "I avoid the situation",
-      C: "I stand up firmly",
-      D: "I try to find a compromise"
-    }
-  },
-  {
-    id: 7,
-    question: "How important is self-discipline in your life?",
-    options: {
-      A: "Extremely important – I follow routines strictly",
-      B: "Somewhat – I try, but not always",
-      C: "Not much – I go with the flow",
-      D: "I rely on motivation rather than discipline"
-    }
-  },
-  {
-    id: 8,
-    question: "How do you handle failure?",
-    options: {
-      A: "I learn from it and move on",
-      B: "I feel disappointed for long",
-      C: "I try something else immediately",
-      D: "I blame external factors"
-    }
-  },
-  {
-    id: 9,
-    question: "What kind of leader would you be?",
-    options: {
-      A: "Fair and just",
-      B: "Inspiring and motivational",
-      C: "Strategic and calculating",
-      D: "Friendly and approachable"
-    }
-  },
-  {
-    id: 10,
-    question: "Which of these do you fear most?",
-    options: {
-      A: "Dishonor",
-      B: "Loneliness",
-      C: "Poverty",
-      D: "Failure"
-    }
-  },
-  {
-    id: 11,
-    question: "What do you do with spare time?",
-    options: {
-      A: "Reflect or meditate",
-      B: "Help others",
-      C: "Learn new things",
-      D: "Relax and entertain myself"
-    }
-  },
-  {
-    id: 12,
-    question: "How do you approach love?",
-    options: {
-      A: "Deep and committed",
-      B: "Cautious but open",
-      C: "Practical and balanced",
-      D: "Passionate and intense"
-    }
-  },
-  {
-    id: 13,
-    question: "Do you believe in destiny or effort?",
-    options: {
-      A: "Effort – I create my path",
-      B: "A mix of both",
-      C: "Destiny – what's meant to happen will",
-      D: "I don't think much about it"
-    }
-  },
-  {
-    id: 14,
-    question: "If you find money on the road, what will you do?",
-    options: {
-      A: "Try to find the owner or report it",
-      B: "Leave it there",
-      C: "Take it if no one's around",
-      D: "Donate it"
-    }
-  },
-  {
-    id: 15,
-    question: "How do you want to be remembered?",
-    options: {
-      A: "As someone wise and honest",
-      B: "As someone who made a difference",
-      C: "As someone strong and successful",
-      D: "As someone who brought joy to others"
-    }
-  }
+const questions = [
+  { id: 1, question: "How do you usually make decisions?", options: { A: "Based on logic and facts", B: "Based on emotions and relationships", C: "I ask others for advice", D: "I trust my intuition" } },
+  { id: 2, question: "How do you handle criticism?", options: { A: "I reflect and try to improve", B: "I take it personally", C: "I ignore it", D: "I defend myself strongly" } },
+  { id: 3, question: "What do you value most in people?", options: { A: "Honesty", B: "Loyalty", C: "Intelligence", D: "Kindness" } },
+  { id: 4, question: "When someone wrongs you, what do you do?", options: { A: "Forgive and move on", B: "Try to understand their side", C: "Avoid them", D: "Seek revenge" } },
+  { id: 5, question: "Which quality best describes you?", options: { A: "Ambitious", B: "Peaceful", C: "Curious", D: "Loyal" } },
+  { id: 6, question: "How do you usually react in conflicts?", options: { A: "I try to calm things down", B: "I avoid the situation", C: "I stand up firmly", D: "I try to find a compromise" } },
+  { id: 7, question: "How important is self-discipline in your life?", options: { A: "Extremely important – I follow routines strictly", B: "Somewhat – I try, but not always", C: "Not much – I go with the flow", D: "I rely on motivation rather than discipline" } },
+  { id: 8, question: "How do you handle failure?", options: { A: "I learn from it and move on", B: "I feel disappointed for long", C: "I try something else immediately", D: "I blame external factors" } },
+  { id: 9, question: "What kind of leader would you be?", options: { A: "Fair and just", B: "Inspiring and motivational", C: "Strategic and calculating", D: "Friendly and approachable" } },
+  { id: 10, question: "Which of these do you fear most?", options: { A: "Dishonor", B: "Loneliness", C: "Poverty", D: "Failure" } },
+  { id: 11, question: "What do you do with spare time?", options: { A: "Reflect or meditate", B: "Help others", C: "Learn new things", D: "Relax and entertain myself" } },
+  { id: 12, question: "How do you approach love?", options: { A: "Deep and committed", B: "Cautious but open", C: "Practical and balanced", D: "Passionate and intense" } },
+  { id: 13, question: "Do you believe in destiny or effort?", options: { A: "Effort – I create my path", B: "A mix of both", C: "Destiny – what's meant to happen will", D: "I don't think much about it" } },
+  { id: 14, question: "If you find money on the road, what will you do?", options: { A: "Try to find the owner or report it", B: "Leave it there", C: "Take it if no one's around", D: "Donate it" } },
+  { id: 15, question: "How do you want to be remembered?", options: { A: "As someone wise and honest", B: "As someone who made a difference", C: "As someone strong and successful", D: "As someone who brought joy to others" } },
 ];
 
-interface PersonalityQuizProps {
-  onComplete: (answers: QuizAnswers) => void;
-}
-
-const PersonalityQuiz: React.FC<PersonalityQuizProps> = ({ onComplete }) => {
+const PersonalityQuiz = ({ onComplete }) => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [answers, setAnswers] = useState<QuizAnswers>({});
+  const [answers, setAnswers] = useState({});
 
-  const handleAnswerChange = (questionId: number, answer: string) => {
+  const handleAnswerChange = (questionId, answer) => {
     setAnswers(prev => ({
       ...prev,
       [questionId]: answer
@@ -346,3 +195,5 @@ const PersonalityQuiz: React.FC<PersonalityQuizProps> = ({ onComplete }) => {
 };
 
 export default PersonalityQuiz;
+
+
