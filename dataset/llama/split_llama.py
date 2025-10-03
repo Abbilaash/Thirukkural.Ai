@@ -139,7 +139,7 @@ else:
     print(f"   ⚠️  No data was split!")
 
 if skipped_kurals:
-    print(f"\n⚠️  {len(skipped_kurals)} Kurals had fewer than 10 scenarios:")
+    print(f"\n  {len(skipped_kurals)} Kurals had fewer than 10 scenarios:")
     for kural_text, total, train, test in skipped_kurals[:10]:
         print(f"   '{kural_text}...': {total} total → {train} train, {test} test")
     if len(skipped_kurals) > 10:
