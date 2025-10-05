@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import PersonalityQuiz from './components/PersonalityQuiz.jsx';
 import LandingPage from './components/LandingPage.jsx';
 import { useTheme } from './hooks/useTheme.js';
+import { chatApi } from './services/chatApi.js';
 
 function App() {
   const { theme } = useTheme();
@@ -16,7 +17,17 @@ function App() {
     return saved ? JSON.parse(saved) : {};
   });
 
-  const handleQuizComplete = (answers) => {
+  const handleQuizComplete = async (answers) => {
+    try {
+      // Submit quiz answers to backend
+      const response = await chatApi.submitQuiz(answers);
+      console.log('Quiz submitted successfully:', response);
+    } catch (error) {
+      console.error('Error submitting quiz:', error);
+      // Continue with local storage even if API fails
+    }
+    
+    // Update local state and storage
     setQuizAnswers(answers);
     setQuizCompleted(true);
     localStorage.setItem('quizCompleted', 'true');
