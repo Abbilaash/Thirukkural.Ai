@@ -1,0 +1,2087 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-9/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#AngerManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Forgiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Justice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abundance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Altruistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appreciation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoiding_Pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Awe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beating_Bad_Habits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beyond_Consequences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beyond_Good_and_Bad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breaking_Free"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calmness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consequentialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualEthics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controlling_Impulses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Core_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Courage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deontological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Determination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DharmaBased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dignity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disgust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Duty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DutyBased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotional_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthicalFramework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finding_Liberation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friendship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goodness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gratitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harmlessness_or_ahimsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Having_a_Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honesty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inner_Peace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inspiration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integrity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KuralBasedEthics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lasting_Happiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leadership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Letting_Go"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Love"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loyalty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meaningful_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meaningful_Learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moral_Strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonAttachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonViolence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overcoming_Worry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparedness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purposeful_Living"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reflection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resourcefulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Responsibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Righteousness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelfDiscipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Struggle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surprise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surrender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TamilCulturalEthics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_First_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Source_of_Life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Threat_of_Scarcity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Ultimate_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truthfulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uselessness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilitarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virtue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VirtueEthics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wealth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wisdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wonder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wonder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ethicalFramework"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evokesEmotion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#englishTranslation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modernScenario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qaAnswer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#qaQuestion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tamilText"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abundance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Appreciation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avoiding_Pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Balance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beating_Bad_Habits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beyond_Consequences"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beyond_Good_and_Bad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breaking_Free"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calmness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clarity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consequence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Controlling_Impulses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Core_Principles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Discipline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DutyBased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emotional_Control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Faith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finding_Liberation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Goodness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harmlessness_or_ahimsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Having_a_Purpose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Humility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inner_Peace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lasting_Happiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Letting_Go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meaningful_Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meaningful_Learning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Strength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Overcoming_Worry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Preparedness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purposeful_Living"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reflection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Resourcefulness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Respect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Self-Control"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SelfControl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Struggle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surrender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_First_Source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Source_of_Life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Threat_of_Scarcity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Ultimate_Provider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Truthfulness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uselessness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Utility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wonder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Worry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#awe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#291"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#AngerManagement"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Family"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Forgiveness"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Justice"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Justice"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abundance"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Altruistic"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anger"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appreciation"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoiding_Pain"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Awe"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balance"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beating_Bad_Habits"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beyond_Consequences"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beyond_Good_and_Bad"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breaking_Free"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calmness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Character"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarity"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consequence"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consequentialist"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextualEthics"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controlling_Impulses"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Core_Principles"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courage"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Courage"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deontological"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detachment"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Determination"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DharmaBased"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dignity"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discipline"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disgust"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dread"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Duty"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DutyBased"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotional_Control"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faith"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fear"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finding_Liberation"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friendship"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generosity"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generosity"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goodness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gratitude"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gratitude"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harmlessness_or_ahimsa"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Having_a_Purpose"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honesty"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honesty"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hope"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inner_Peace"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inspiration"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integrity"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joy"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KuralBasedEthics"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lasting_Happiness"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leadership"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Learning"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Letting_Go"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Love"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loyalty"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meaningful_Action"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meaningful_Learning"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderation"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moral_Strength"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonAttachment"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonViolence"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overcoming_Worry"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patience"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peace"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparedness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purity"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purposeful_Living"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reflection"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resourcefulness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respect"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Responsibility"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Righteousness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sadness"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-Control"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfControl"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelfDiscipline"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Struggle"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surprise"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surrender"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TamilCulturalEthics"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_First_Source"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Source_of_Life"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Threat_of_Scarcity"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Ultimate_Provider"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trust"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truthfulness"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truthfulness"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uselessness"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilitarian"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utility"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VirtueEthics"/>
+        <Class IRI="#EthicalFramework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wealth"/>
+        <Class IRI="#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wisdom"/>
+        <Class IRI="#Virtue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wonder"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worry"/>
+        <Class IRI="#Emotion"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#AngerManagement"/>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Family"/>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Forgiveness"/>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Justice"/>
+        <Class IRI="#Courage"/>
+        <Class IRI="#Duty"/>
+        <Class IRI="#Friendship"/>
+        <Class IRI="#Generosity"/>
+        <Class IRI="#Gratitude"/>
+        <Class IRI="#Honesty"/>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Leadership"/>
+        <Class IRI="#Learning"/>
+        <Class IRI="#Love"/>
+        <Class IRI="#NonViolence"/>
+        <Class IRI="#Responsibility"/>
+        <Class IRI="#SelfDiscipline"/>
+        <Class IRI="#Truthfulness"/>
+        <Class IRI="#Wealth"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Justice"/>
+        <Class IRI="#Courage"/>
+        <Class IRI="#Detachment"/>
+        <Class IRI="#Dignity"/>
+        <Class IRI="#Generosity"/>
+        <Class IRI="#Gratitude"/>
+        <Class IRI="#Harmlessness_or_ahimsa"/>
+        <Class IRI="#Honesty"/>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Integrity"/>
+        <Class IRI="#Loyalty"/>
+        <Class IRI="#Moderation"/>
+        <Class IRI="#NonAttachment"/>
+        <Class IRI="#Patience"/>
+        <Class IRI="#Righteousness"/>
+        <Class IRI="#SelfControl"/>
+        <Class IRI="#Truthfulness"/>
+        <Class IRI="#Wisdom"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#Compassion"/>
+        <Class IRI="#Anger"/>
+        <Class IRI="#Awe"/>
+        <Class IRI="#Clarity"/>
+        <Class IRI="#Determination"/>
+        <Class IRI="#Disgust"/>
+        <Class IRI="#Fear"/>
+        <Class IRI="#Hope"/>
+        <Class IRI="#Humility"/>
+        <Class IRI="#Inspiration"/>
+        <Class IRI="#Joy"/>
+        <Class IRI="#Peace"/>
+        <Class IRI="#Sadness"/>
+        <Class IRI="#Surprise"/>
+        <Class IRI="#Trust"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Altruistic"/>
+        <Class IRI="#Consequentialist"/>
+        <Class IRI="#ContextualEthics"/>
+        <Class IRI="#Deontological"/>
+        <Class IRI="#DharmaBased"/>
+        <Class IRI="#DutyBased"/>
+        <Class IRI="#KuralBasedEthics"/>
+        <Class IRI="#TamilCulturalEthics"/>
+        <Class IRI="#Utilitarian"/>
+        <Class IRI="#VirtueEthics"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Abundance"/>
+        <NamedIndividual IRI="#Abundance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Appreciation"/>
+        <NamedIndividual IRI="#Appreciation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Avoiding_Pain"/>
+        <NamedIndividual IRI="#Avoiding_Pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Balance"/>
+        <NamedIndividual IRI="#Balance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beating_Bad_Habits"/>
+        <NamedIndividual IRI="#Beating_Bad_Habits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beyond_Consequences"/>
+        <NamedIndividual IRI="#Beyond_Consequences"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beyond_Good_and_Bad"/>
+        <NamedIndividual IRI="#Beyond_Good_and_Bad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Breaking_Free"/>
+        <NamedIndividual IRI="#Breaking_Free"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calmness"/>
+        <NamedIndividual IRI="#Calmness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Character"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Clarity"/>
+        <NamedIndividual IRI="#Clarity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consequence"/>
+        <NamedIndividual IRI="#Consequence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlling_Impulses"/>
+        <NamedIndividual IRI="#Controlling_Impulses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Core_Principles"/>
+        <NamedIndividual IRI="#Core_Principles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Discipline"/>
+        <NamedIndividual IRI="#Discipline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dread"/>
+        <NamedIndividual IRI="#Dread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DutyBased"/>
+        <NamedIndividual IRI="#DutyBased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotional_Control"/>
+        <NamedIndividual IRI="#Emotional_Control"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faith"/>
+        <NamedIndividual IRI="#Faith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Finding_Liberation"/>
+        <NamedIndividual IRI="#Finding_Liberation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Goodness"/>
+        <NamedIndividual IRI="#Goodness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harmlessness_or_ahimsa"/>
+        <NamedIndividual IRI="#Harmlessness_or_ahimsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Having_a_Purpose"/>
+        <NamedIndividual IRI="#Having_a_Purpose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hope"/>
+        <NamedIndividual IRI="#Hope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humility"/>
+        <NamedIndividual IRI="#Humility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inner_Peace"/>
+        <NamedIndividual IRI="#Inner_Peace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lasting_Happiness"/>
+        <NamedIndividual IRI="#Lasting_Happiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Letting_Go"/>
+        <NamedIndividual IRI="#Letting_Go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meaningful_Action"/>
+        <NamedIndividual IRI="#Meaningful_Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Meaningful_Learning"/>
+        <NamedIndividual IRI="#Meaningful_Learning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Moral_Strength"/>
+        <NamedIndividual IRI="#Moral_Strength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Overcoming_Worry"/>
+        <NamedIndividual IRI="#Overcoming_Worry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Peace"/>
+        <NamedIndividual IRI="#Peace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preparedness"/>
+        <NamedIndividual IRI="#Preparedness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purity"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purposeful_Living"/>
+        <NamedIndividual IRI="#Purposeful_Living"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reflection"/>
+        <NamedIndividual IRI="#Reflection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resourcefulness"/>
+        <NamedIndividual IRI="#Resourcefulness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Respect"/>
+        <NamedIndividual IRI="#Respect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Self-Control"/>
+        <NamedIndividual IRI="#Self-Control"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SelfControl"/>
+        <NamedIndividual IRI="#SelfControl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Struggle"/>
+        <NamedIndividual IRI="#Struggle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Surrender"/>
+        <NamedIndividual IRI="#Surrender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_First_Source"/>
+        <NamedIndividual IRI="#The_First_Source"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_Source_of_Life"/>
+        <NamedIndividual IRI="#The_Source_of_Life"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_Threat_of_Scarcity"/>
+        <NamedIndividual IRI="#The_Threat_of_Scarcity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#The_Ultimate_Provider"/>
+        <NamedIndividual IRI="#The_Ultimate_Provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Truthfulness"/>
+        <NamedIndividual IRI="#Truthfulness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Uselessness"/>
+        <NamedIndividual IRI="#Uselessness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utility"/>
+        <NamedIndividual IRI="#Utility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wonder"/>
+        <NamedIndividual IRI="#Wonder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Worry"/>
+        <NamedIndividual IRI="#Worry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#awe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#291"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kural"/>
+        <NamedIndividual IRI="#9"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#Humility"/>
+        <NamedIndividual IRI="#Humility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#Meaningful_Learning"/>
+        <NamedIndividual IRI="#Meaningful_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#awe"/>
+        <NamedIndividual IRI="#awe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#The_First_Source"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Respect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Core_Principles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#Wonder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#Breaking_Free"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#Surrender"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#Finding_Liberation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#Hope"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#11"/>
+        <NamedIndividual IRI="#The_Source_of_Life"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#11"/>
+        <NamedIndividual IRI="#Appreciation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#11"/>
+        <NamedIndividual IRI="#awe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#12"/>
+        <NamedIndividual IRI="#The_Ultimate_Provider"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#12"/>
+        <NamedIndividual IRI="#Resourcefulness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#12"/>
+        <NamedIndividual IRI="#Utility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#12"/>
+        <NamedIndividual IRI="#Abundance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#13"/>
+        <NamedIndividual IRI="#The_Threat_of_Scarcity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#13"/>
+        <NamedIndividual IRI="#Preparedness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#13"/>
+        <NamedIndividual IRI="#Consequence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#13"/>
+        <NamedIndividual IRI="#Dread"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Meaningful_Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Humility"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Character"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#Reflection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#291"/>
+        <NamedIndividual IRI="#Truthfulness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#291"/>
+        <NamedIndividual IRI="#Harmlessness_or_ahimsa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#291"/>
+        <NamedIndividual IRI="#Clarity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Lasting_Happiness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Calmness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Inner_Peace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#3"/>
+        <NamedIndividual IRI="#Peace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Avoiding_Pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Letting_Go"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Emotional_Control"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#Balance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#Beyond_Consequences"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#Beyond_Good_and_Bad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#Clarity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#6"/>
+        <NamedIndividual IRI="#Controlling_Impulses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#6"/>
+        <NamedIndividual IRI="#SelfControl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#6"/>
+        <NamedIndividual IRI="#Self-Control"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#6"/>
+        <NamedIndividual IRI="#Discipline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#7"/>
+        <NamedIndividual IRI="#Overcoming_Worry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#7"/>
+        <NamedIndividual IRI="#Faith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#7"/>
+        <NamedIndividual IRI="#Faith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#7"/>
+        <NamedIndividual IRI="#Worry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#8"/>
+        <NamedIndividual IRI="#Beating_Bad_Habits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#8"/>
+        <NamedIndividual IRI="#Goodness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#8"/>
+        <NamedIndividual IRI="#Moral_Strength"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#8"/>
+        <NamedIndividual IRI="#Struggle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <NamedIndividual IRI="#9"/>
+        <NamedIndividual IRI="#Having_a_Purpose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <NamedIndividual IRI="#9"/>
+        <NamedIndividual IRI="#Meaningful_Action"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <NamedIndividual IRI="#9"/>
+        <NamedIndividual IRI="#Purposeful_Living"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <NamedIndividual IRI="#9"/>
+        <NamedIndividual IRI="#Uselessness"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>As the letter A is the first of all letters, so the eternal God is first in the world.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>A coder explains that just like &apos;A&apos; is the basis for all language, the binary code &apos;0&apos; and &apos;1&apos; is the fundamental source of all modern software.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>Yes. Every complex system must have a fundamental starting point, just as the alphabet has &apos;A&apos;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal>In a world of science, is this idea of a &apos;first source&apos; still relevant?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal xml:lang="ta">அகர முதல எழுத்தெல்லாம் ஆதி
+பகவன் முதற்றே உலகு.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>None can swim the great sea of births but those who are united to the feet of God.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>A relief worker in a disaster zone feels broken by the endless cycle of suffering she witnesses. She finds the strength to continue her work only by grounding herself in deep faith, surrendering the overwhelming burden to a higher power.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>You can cross that &apos;great sea&apos; of struggle only by connecting to a higher power. Those who do not connect with this divine support cannot make it across.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal>How can I escape a situation that feels like a hopeless, repeating cycle?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal xml:lang="ta">பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்
+இறைவன் அடிசேரா தார்.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal>As the world its course maintains through life that rain unfailing gives, thus rain is known the true ambrosial food of all that lives.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal>An ecologist explains that the entire global food web, from the smallest plankton to the largest mammal, is fundamentally dependent on the water cycle, which begins with rain.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal>Because all our technologies are built upon that simple foundation. Without rain, the very source of water dries up, and no amount of innovation can replace it. It is the life-giving ambrosia for the planet.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal>Why focus on something as simple as rain when we have advanced agricultural technology?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal xml:lang="ta">வான்நின்று உலகம் வழங்கி வருதலால்
+தான்அமிழ்தம் என்றுணரற் பாற்று.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal>The rain makes pleasant food for eaters rise; As food itself, thirst-quenching draught supplies.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal>A city planner explains that a new reservoir not only provides drinking water for citizens but also irrigates the surrounding farmlands that feed the city. The water serves two vital purposes from one source.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal>It highlights a profound truth: the source of our sustenance is also sustenance itself. It teaches us to see the interconnectedness and efficiency of nature&apos;s most vital systems.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal>Isn&apos;t this just stating the obvious? We know rain gives us water and helps food grow.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal xml:lang="ta">துப்பார்க்குத் துப்பாய துப்பாக்கித் துப்பார்க்குத்
+துப்பாய தூஉம் மழை.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal>If clouds, that promised rain, deceive, and in the sky remain, famine, sore torment, stalks o’er earth’s vast ocean-girdled plain.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal>During a severe drought, news reports show vast, cracked farmlands and skyrocketing food prices in supermarkets, affecting everyone from farmers to urban families.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal>Global food systems also depend on rain. A widespread drought can trigger a global crisis, showing that no matter how advanced we are, our survival is tied to this fundamental natural cycle.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal>With global supply chains, can&apos;t we just import food if it doesn&apos;t rain in one place?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal xml:lang="ta">விண்இன்று பொய்ப்பின் விரிநீர் வியனுலகத்து
+உள்நின்று உடற்றும் பசி.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>What Profit have those derived from learning, who worship not the good feet of Him who is possessed of pure knowledge ?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>A brilliant surgeon who is arrogant and rude to patients hasn&apos;t truly profited from their education, as their knowledge lacks the virtue of compassion.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>No. Knowledge has no real value unless it is combined with humility and a moral compass. Its true profit comes from how you use it.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal>I have a university degree. Isn&apos;t that enough to be considered successful?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal xml:lang="ta">கற்றதனால் ஆய பயனென்கொல் வாலறிவன்
+நற்றாள் தொழாஅர் எனின்.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#291"/>
+        <Literal>What is called truthfulness? It is speaking words that cause no harm to others.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#291"/>
+        <Literal>During a team meeting, a colleague gives constructive feedback on an idea to avoid discouraging their teammate, rather than bluntly calling the idea bad.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#291"/>
+        <Literal>No, true truthfulness is defined as speaking in a way that is completely free from causing any harm to others.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#291"/>
+        <Literal>Is being truthful just about saying factually correct things?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>They who are united to the glorious feet of Him who passes swiftly over the flower of the mind, shall flourish long above all worlds.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>A person who regularly practices meditation to quiet their racing thoughts finds they are healthier, less stressed, and more successful in their daily life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>Not at all. To succeed in the world, you must first master your mind. A calm mind is the foundation for a long and happy life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal>Does this mean I have to leave the world and become a monk to be happy?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#3"/>
+        <Literal xml:lang="ta">மலர்மிசை ஏகினான் மாணடி சேர்ந்தார்
+நிலமிசை நீடுவாழ் வார்.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>To those who meditate the feet of Him who is void of desire or aversion, evil shall never come.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>An investor who doesn&apos;t get greedy during a market boom or fearful during a crash makes better long-term decisions because they are free from the pull of desire and aversion.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>The goal is not to have no feelings, but to not be a slave to them. You protect yourself from suffering by not letting strong desires or hatreds control you.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal>Is it possible for a person to have no desires or dislikes?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal xml:lang="ta">வேண்டுதல் வேண்டாமை இலானடி சேர்ந்தார்க்கு
+யாண்டும் இடும்பை இல.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal>The two-fold deeds that spring from darkness shall not adhere to those who delight in the true praise of God.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal>A judge focuses only on applying the law and is not swayed by whether their verdict makes one side happy (good deed) or the other sad (bad deed).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal>You should focus on the core principle behind your actions, not just the labels of &apos;good&apos; and &apos;bad&apos;. By sticking to a higher truth, you are not bound by those simple outcomes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal>So should I stop trying to do &apos;good deeds&apos;?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal xml:lang="ta">இருள்சேர் இருவினையும் சேரா இறைவன்
+பொருள்சேர் புகழ்புரிந்தார் மாட்டு.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal>Those shall long prosper who abide in the faultless way of Him who has destroyed the five desires of the senses.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal>An athlete who controls their diet and avoids late-night parties has a longer and more successful career.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal>It is not about denying pleasure, but about mastering your impulses. You should be the master of your senses, not the other way around. This discipline leads to a prosperous life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal>Does this mean I can&apos;t enjoy life&apos;s pleasures?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal xml:lang="ta">பொறிவாயில் ஐந்தவித்தான் பொய்தீர் ஒழுக்க
+நெறிநின்றார் நீடுவாழ் வார்.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal>Anxiety of mind cannot be removed, except from those who are united to the feet of Him who is incomparable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal>After trying everything to solve a difficult family problem, a person finds peace only by accepting they&apos;ve done all they can and placing their faith in a higher power to handle the outcome.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal>While helpful, they might not be enough for deep anxiety. True relief comes from having faith in a higher power, which provides a stronger anchor than your own thoughts.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal>Can&apos;t therapy or positive thinking cure anxiety?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal xml:lang="ta">தனக்குவமை இல்லாதான் தாள்சேர்ந்தார்க் கல்லால்
+மனக்கவலை மாற்றல் அரிது.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal>None can swim the sea of vice, but those who are united to the feet of that gracious Being who is a sea of virtue.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal>Two people open competing coffee shops. One owner cuts corners on quality and underpays his staff. The other focuses on being good, using quality ingredients and treating employees well. The first owner fails due to a bad reputation, while the second succeeds long-term because she was anchored in virtue.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal>Because life has many challenges, like the &apos;seas&apos; of wealth and desire. Without a strong foundation of goodness, it is impossible to navigate them successfully.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal>Why is being a good person so important for success in life?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal xml:lang="ta">அறவாழி அந்தணன் தாள்சேர்ந்தார்க் கல்லால்
+பிறவாழி நீந்தல் அரிது.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#englishTranslation"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal>The head that worships not the feet of Him who is possessed of eight attributes, is as useless as a sense without the power of sensation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modernScenario"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal>A person with a brilliant mind who does not use it for any virtuous purpose is like having a high-performance computer that is never even turned on.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaAnswer"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal>Because intelligence without a guiding purpose is useless. A mind that is not directed by virtue is like an eye that cannot see; it has no real-world value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#qaQuestion"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal>I&apos;m very intelligent. Why isn&apos;t that enough on its own?</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tamilText"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal xml:lang="ta">கோளில் பொறியின் குணமிலவே எண்குணத்தான்
+தாளை வணங்காத் தலை.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Wonder"/>
+        <ObjectProperty IRI="#evokesEmotion"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <Class IRI="#Kural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <Class IRI="#Kural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <Class IRI="#Kural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <Class IRI="#Kural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#hasTheme"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/abbil/ontologies/2025/6/untitled-ontology-4#promotesVirtue"/>
+        <Class IRI="#Virtue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ethicalFramework"/>
+        <Class IRI="#EthicalFramework"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evokesEmotion"/>
+        <Class IRI="#Emotion"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#englishTranslation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#modernScenario"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#qaAnswer"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#qaQuestion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tamilText"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#englishTranslation"/>
+        <Class IRI="#Kural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#modernScenario"/>
+        <Class IRI="#Kural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qaAnswer"/>
+        <Class IRI="#Kural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#qaQuestion"/>
+        <Class IRI="#Kural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tamilText"/>
+        <Class IRI="#Kural"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#englishTranslation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modernScenario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qaAnswer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#qaQuestion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tamilText"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
