@@ -101,6 +101,6 @@ Based on detected emotions and personality type, the system provides:
 - **Tailwind CSS**: Utility-first CSS framework
 - **Framer Motion**: Animation library
 
----
+----
 
 **Made with ❤️ for preserving Tamil wisdom and making it accessible to the modern world.**
